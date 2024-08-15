@@ -1,0 +1,43 @@
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.box-shadow {
+  box-shadow: 0 0px 6px 2px #d8d8d8;
+}
+
+:root {  
+  --t-text-color: #323233;
+  --t-text-color-1: #323233;
+  --t-text-color-2: #969799;
+  --t-text-color-3: #c8c9cc;
+
+  --t-node-color-root: #5d7092;
+  --t-node-color-normal: #5d7092;
+  --t-node-color-exception: #ff943e;
+
+  --rc-edge-color: #cfcfcf;
+  --rc-edge-color-hover: #9a9a9a;
+  --rc-boundary-color: #aaaaaa;
+  --rc-boundary-color-selected: #5c9aeb;
+}
+
+.text-color-1 {
+  color: var(--t-text-color-1);
+}
+.text-color-2 {
+  color: var(--t-text-color-2);
+}
+.text-color-3 {
+  color: var(--t-text-color-3);
+}
+
+@keyframes flowing-line {
+  to {
+      stroke-dashoffset: -1000
+  }
+}

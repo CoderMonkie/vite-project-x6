@@ -1,0 +1,364 @@
+[
+  {
+    "position": {
+      "x": 510,
+      "y": 80
+    },
+    "size": {
+      "width": 300,
+      "height": 120
+    },
+    "view": "vue-shape-view",
+    "shape": "rc-node",
+    "id": "rc-node-1",
+    "data": {
+      "isRoot": true,
+      "mode": "designer",
+      "bizObj": {
+        "id": "rc-node-1",
+        "checkItems": [
+          "示例检测项1",
+          "示例检测项2",
+          "示例检测项3",
+          "示例检测项4"
+        ],
+        "checkRules": [
+          "示例判定规则1",
+          "示例判定规则2",
+          "示例判定规则3",
+          "示例判定规则4"
+        ],
+        "checkResult": true
+      }
+    },
+    "zIndex": 1
+  },
+  {
+    "position": {
+      "x": 150,
+      "y": 300
+    },
+    "size": {
+      "width": 300,
+      "height": 120
+    },
+    "view": "vue-shape-view",
+    "shape": "rc-node-condition",
+    "id": "rc-node-condition-1724123738821",
+    "data": {},
+    "draggable": false,
+    "zIndex": 2
+  },
+  {
+    "position": {
+      "x": 150,
+      "y": 520
+    },
+    "size": {
+      "width": 300,
+      "height": 120
+    },
+    "view": "vue-shape-view",
+    "shape": "rc-node",
+    "id": "rc-node-1724123738821",
+    "data": {
+      "isRoot": false,
+      "mode": "designer",
+      "bizObj": {
+        "id": "rc-node-1",
+        "checkItems": [
+          "示例检测项1",
+          "示例检测项2",
+          "示例检测项3",
+          "示例检测项4"
+        ],
+        "checkRules": [
+          "示例判定规则1",
+          "示例判定规则2",
+          "示例判定规则3",
+          "示例判定规则4"
+        ],
+        "checkResult": true
+      }
+    },
+    "zIndex": 3
+  },
+  {
+    "shape": "edge",
+    "attrs": {
+      "line": {
+        "stroke": "var(--rc-edge-color"
+      }
+    },
+    "id": "897dc1cd-9df0-4864-a8de-013d5a71d584",
+    "source": {
+      "cell": "rc-node-1"
+    },
+    "target": {
+      "cell": "rc-node-condition-1724123738821"
+    },
+    "zIndex": 4
+  },
+  {
+    "shape": "edge",
+    "attrs": {
+      "line": {
+        "stroke": "var(--rc-edge-color)"
+      }
+    },
+    "id": "dd8439de-56d1-45a0-b6bf-f2c868a0bd7e",
+    "source": {
+      "cell": "rc-node-condition-1724123738821"
+    },
+    "target": {
+      "cell": "rc-node-1724123738821"
+    },
+    "zIndex": 5
+  },
+  {
+    "position": {
+      "x": 510,
+      "y": 300
+    },
+    "size": {
+      "width": 300,
+      "height": 120
+    },
+    "view": "vue-shape-view",
+    "shape": "rc-node-condition",
+    "id": "rc-node-condition-1724123742664",
+    "data": {},
+    "draggable": false,
+    "zIndex": 10
+  },
+  {
+    "position": {
+      "x": 510,
+      "y": 520
+    },
+    "size": {
+      "width": 300,
+      "height": 120
+    },
+    "view": "vue-shape-view",
+    "shape": "rc-node",
+    "id": "rc-node-1724123742664",
+    "data": {
+      "isRoot": false,
+      "mode": "designer",
+      "bizObj": {
+        "id": "rc-node-1",
+        "checkItems": [
+          "示例检测项1",
+          "示例检测项2",
+          "示例检测项3",
+          "示例检测项4"
+        ],
+        "checkRules": [
+          "示例判定规则1",
+          "示例判定规则2",
+          "示例判定规则3",
+          "示例判定规则4"
+        ],
+        "checkResult": true
+      }
+    },
+    "zIndex": 11
+  },
+  {
+    "shape": "edge",
+    "attrs": {
+      "line": {
+        "stroke": "var(--rc-edge-color)"
+      }
+    },
+    "id": "3ef4042b-cc7a-4864-b366-5b0e8ac95654",
+    "source": {
+      "cell": "rc-node-1"
+    },
+    "target": {
+      "cell": "rc-node-condition-1724123742664"
+    },
+    "zIndex": 12
+  },
+  {
+    "shape": "edge",
+    "attrs": {
+      "line": {
+        "stroke": "var(--rc-edge-color)"
+      }
+    },
+    "id": "b62e5fc6-38f1-4f07-b161-d45bb8d390bd",
+    "source": {
+      "cell": "rc-node-condition-1724123742664"
+    },
+    "target": {
+      "cell": "rc-node-1724123742664"
+    },
+    "zIndex": 13
+  },
+  {
+    "position": {
+      "x": 870,
+      "y": 300
+    },
+    "size": {
+      "width": 300,
+      "height": 120
+    },
+    "view": "vue-shape-view",
+    "shape": "rc-node-condition",
+    "id": "rc-node-condition-1724123744613",
+    "data": {},
+    "draggable": false,
+    "zIndex": 14
+  },
+  {
+    "position": {
+      "x": 870,
+      "y": 520
+    },
+    "size": {
+      "width": 300,
+      "height": 120
+    },
+    "view": "vue-shape-view",
+    "shape": "rc-node",
+    "id": "rc-node-1724123744613",
+    "data": {
+      "isRoot": false,
+      "mode": "designer",
+      "bizObj": {
+        "id": "rc-node-1",
+        "checkItems": [
+          "示例检测项1",
+          "示例检测项2",
+          "示例检测项3",
+          "示例检测项4"
+        ],
+        "checkRules": [
+          "示例判定规则1",
+          "示例判定规则2",
+          "示例判定规则3",
+          "示例判定规则4"
+        ],
+        "checkResult": true
+      }
+    },
+    "zIndex": 15
+  },
+  {
+    "shape": "edge",
+    "attrs": {
+      "line": {
+        "stroke": "var(--rc-edge-color)"
+      }
+    },
+    "id": "f1cbb144-52bf-4e9d-89b4-919e2f7887d2",
+    "source": {
+      "cell": "rc-node-1"
+    },
+    "target": {
+      "cell": "rc-node-condition-1724123744613"
+    },
+    "zIndex": 16
+  },
+  {
+    "shape": "edge",
+    "attrs": {
+      "line": {
+        "stroke": "var(--rc-edge-color)"
+      }
+    },
+    "id": "57a1ab3b-def8-4af6-acd0-5c2b6c5d052e",
+    "source": {
+      "cell": "rc-node-condition-1724123744613"
+    },
+    "target": {
+      "cell": "rc-node-1724123744613"
+    },
+    "zIndex": 17
+  },
+  {
+    "position": {
+      "x": 510,
+      "y": 740
+    },
+    "size": {
+      "width": 300,
+      "height": 120
+    },
+    "view": "vue-shape-view",
+    "shape": "rc-node-condition",
+    "id": "c82c8eb0-6018-4e8e-826a-2b8f405192dd",
+    "data": {},
+    "draggable": false,
+    "zIndex": 18
+  },
+  {
+    "position": {
+      "x": 510,
+      "y": 960
+    },
+    "size": {
+      "width": 300,
+      "height": 120
+    },
+    "view": "vue-shape-view",
+    "shape": "rc-node",
+    "id": "54974a35-fd2e-488e-a63a-21179c3aef97",
+    "data": {
+      "isRoot": false,
+      "mode": "designer",
+      "bizObj": {
+        "id": "rc-node-1",
+        "checkItems": [
+          "示例检测项1",
+          "示例检测项2",
+          "示例检测项3",
+          "示例检测项4"
+        ],
+        "checkRules": [
+          "示例判定规则1",
+          "示例判定规则2",
+          "示例判定规则3",
+          "示例判定规则4"
+        ],
+        "checkResult": true
+      }
+    },
+    "zIndex": 19
+  },
+  {
+    "shape": "edge",
+    "attrs": {
+      "line": {
+        "stroke": "var(--rc-edge-color)"
+      }
+    },
+    "id": "dfeff89f-ed80-44a8-865e-b1f2a437e681",
+    "source": {
+      "cell": "c82c8eb0-6018-4e8e-826a-2b8f405192dd"
+    },
+    "target": {
+      "cell": "54974a35-fd2e-488e-a63a-21179c3aef97"
+    },
+    "zIndex": 20
+  },
+  {
+    "shape": "edge",
+    "attrs": {
+      "line": {
+        "stroke": "var(--rc-edge-color)"
+      }
+    },
+    "id": "f26abab5-ac59-4f3a-ace0-32f14fa26f32",
+    "source": {
+      "cell": "rc-node-1724123742664"
+    },
+    "target": {
+      "cell": "c82c8eb0-6018-4e8e-826a-2b8f405192dd"
+    },
+    "zIndex": 21
+  }
+]
