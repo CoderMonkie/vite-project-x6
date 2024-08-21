@@ -1,5 +1,5 @@
 import { ref, reactive, computed } from 'vue';
-import { DEFAULT_RANK_DIRECTION } from './utils/constants';
+import { DEFAULT_RANK_DIRECTION, RandDirections } from './utils/constants';
 
 export const rankDirection = ref(DEFAULT_RANK_DIRECTION);
 export const isVertical = computed({

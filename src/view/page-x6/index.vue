@@ -25,9 +25,9 @@
 </template>
 
 <script setup>
-import { computed, defineComponent, nextTick, ref, onMounted } from 'vue';
+import { computed, ref, onMounted } from 'vue';
 import RcNode from '../../components/rc-node/index.vue';
-import RcNodeCondtion from '../../components/rc-edge/node-condition.vue';
+import RcNodeCondition from '../../components/rc-edge/node-condition.vue';
 import NodeContextMenu from '../../components/context-menu/index.vue';
 
 import { Graph, Edge } from '@antv/x6';
@@ -55,7 +55,7 @@ register({
   shape: 'rc-node-condition',
   width: 300,
   height: 120,
-  component: RcNodeCondtion,
+  component: RcNodeCondition,
 });
 const TeleportContainer = getTeleport();
 
